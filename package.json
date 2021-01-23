@@ -1,0 +1,32 @@
+{
+  "name": "@steelydylan/prism-diff-highlight",
+  "publishConfig": {
+    "access": "public"
+  },
+  "version": "1.0.2",
+  "description": "Markdown-it plugin to specify image size",
+  "main": "lib/index.js",
+  "scripts": {
+    "lint": "eslint --fix",
+    "build": "rm -rf ./lib && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/steelydylan/prism-diff-highlight"
+  },
+  "author": "steelydylan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/steelydylan/prism-diff-highlight/issues"
+  },
+  "homepage": "https://github.com/steelydylan/prism-diff-highlight",
+  "keywords": [
+    "prismjs"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "@types/prismjs": "^1.16.2",
+    "prismjs": "^1.23.0",
+    "typescript": "^4.1.3"
+  }
+}
