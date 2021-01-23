@@ -1,13 +1,7 @@
 import Prism, { TokenStream } from 'prismjs';
 import loadLanguages from 'prismjs/components';
 
-let alreadyLoaded = false;
-
 export default function () {
-  if (alreadyLoaded) {
-    return false
-  }
-  alreadyLoaded = true;
   // this plugin needs to load `diff`
   loadLanguages('diff');
 
